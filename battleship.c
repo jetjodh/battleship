@@ -18,8 +18,6 @@ void main()
 	srand(time(NULL));           //Creating random coordinates of the ship.
 	X=(rand()%(6))+1;
 	Y=(rand()%(6))+1;
-	printf("%d",X);
-	printf("%d",Y);
 	for(guesses=1;guesses<4;guesses++)         //Getting 4 guesses from the User.
 		{
 			printf("\nEnter the X coordinate:");
